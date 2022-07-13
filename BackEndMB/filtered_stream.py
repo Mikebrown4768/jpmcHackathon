@@ -59,12 +59,14 @@ def set_rules(delete):
         {"value": "cat has:images -grumpy", "tag": "cat pictures"},
     ]
     """
-
-
+    value1 = "dog has:images"
+    tag = "dog pictures"
+    value2 = "cat has:images -grumpy"
+    tag2 = "cat pictures"
     #"""
     sample_rules = [
-        {"value": "IBM has:images", "tag": "IBM pictures"},
-        {"value": "cat has:images -grumpy", "tag": "cat pictures"},
+        {"value": value1, "tag": tag},
+        {"value": value2, "tag": tag2},
     ]
     #"""
 
