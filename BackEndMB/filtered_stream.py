@@ -100,6 +100,10 @@ def get_stream(set):
             print(json.dumps(json_response, indent=4, sort_keys=True))
 
 
+
+#def getXTweets(search, numTweets):
+
+
 def main():
     rules = get_rules()
     delete = delete_all_rules(rules)
